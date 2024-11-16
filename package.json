@@ -1,14 +1,22 @@
 {
   "name": "eslint-plugin-no-plain-english",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Eslint plugin that wanr you about usage of plain English text in your javascript code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "eslint-plugin",
+    "no-plain-english"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lalosh/eslint-plugin-no-plain-english.git"
+  },
   "author": "Louay Al-osh",
-  "license": "ISC"
+  "license": "MIT",
+  "homepage": "https://github.com/lalosh/eslint-plugin-no-plain-english#readme",
+  "bugs": "https://github.com/lalosh/eslint-plugin-no-plain-english/issues"
 }
