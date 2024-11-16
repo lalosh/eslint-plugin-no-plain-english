@@ -1,7 +1,7 @@
 const plugin = {
   meta: {
     name: "eslint-plugin-no-plain-english",
-    version: "1.0.1",
+    version: "1.0.2",
   },
   configs: {},
   rules: {
@@ -20,6 +20,7 @@ const plugin = {
         return {
           JSXAttribute(node) {
             if (
+              node?.name?.name == "title" &&
               node?.value?.type == "Literal" &&
               /\w/.test(node?.value?.value?.trim?.())
             ) {
