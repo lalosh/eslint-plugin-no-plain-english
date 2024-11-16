@@ -16,7 +16,7 @@ Of course you can use to help you count how many times you used plain English te
 # Installation
 
 ```sh
-npm i eslint-plugin-no-plain-english
+yarn add -D eslint-plugin-no-plain-english
 ```
 
 # Usage
