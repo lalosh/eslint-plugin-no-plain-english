@@ -1,7 +1,7 @@
 const plugin = {
   meta: {
     name: "eslint-plugin-no-plain-english",
-    version: "1.0.0",
+    version: "1.0.1",
   },
   configs: {},
   rules: {

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-plain-english",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint plugin that wanr you about usage of plain English text in your javascript code",
   "main": "index.js",
   "scripts": {
