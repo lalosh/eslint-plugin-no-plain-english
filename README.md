@@ -41,3 +41,35 @@ export default [
     }
 ]
 ```
+
+# Rules
+
+## no-plain-english
+
+Will disallow plain English in JSX children
+
+Example that will trigger error for this rule:
+
+```jsx
+<p>Hello world</p>
+```
+
+## no-string-expressions
+
+Will disallow string English copy text in JSX children
+
+Example that will trigger error for this rule:
+
+```jsx
+<p>{'Hello world'}</p>
+```
+
+## no-string-in-title
+
+Will disallow string English copy text in JSX title attributes
+
+Example that will trigger error for this rule:
+
+```jsx
+<p title='hello world'></p>
+```
