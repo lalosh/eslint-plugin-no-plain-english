@@ -1,0 +1,14 @@
+{
+  "name": "eslint-plugin-no-plain-english",
+  "version": "1.0.0",
+  "description": "Eslint plugin that wanr you about usage of plain English text in your javascript code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Louay Al-osh",
+  "license": "ISC"
+}
