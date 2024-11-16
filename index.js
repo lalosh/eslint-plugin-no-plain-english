@@ -1,7 +1,7 @@
 const plugin = {
   meta: {
     name: "eslint-plugin-no-plain-english",
-    version: "1.0.2",
+    version: "1.0.3",
   },
   configs: {},
   rules: {
@@ -50,7 +50,8 @@ const plugin = {
           JSXExpressionContainer(node) {
             if (
               node?.expression?.type == "Literal" &&
-              /\w/.test(node?.expression?.value?.trim?.())
+              /\w/.test(node?.expression?.value?.trim?.()) &&
+              node?.parent?.type !== "JSXAttribute"
             ) {
               context.report({
                 node,
@@ -90,8 +91,5 @@ const plugin = {
   processors: {},
 };
 
-// for ESM
-//export default plugin;
 
-// OR for CommonJS
 module.exports = plugin;
